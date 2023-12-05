@@ -1,7 +1,11 @@
 function App() {
   return (
     <div className="App">
-		<a href="/">Test</a>
+		<img src="/favicon.png" alt="hejsan" width="50" />
+		<a href="/">Home</a>
+		<div className="Navright">
+			<a href="/About">About</a>
+		</div>
     </div>
   );
 }
